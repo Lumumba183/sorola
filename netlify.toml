@@ -1,0 +1,3 @@
+[build]
+  command = "mkdir -p dist && cp *.html dist/ && cp -r assets dist/ && cp robots.txt sitemap.xml dist/"
+  publish = "dist"
